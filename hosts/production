@@ -1,0 +1,5 @@
+[production]
+production.host
+
+[web]
+production.host

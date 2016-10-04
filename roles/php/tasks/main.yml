@@ -1,0 +1,27 @@
+- name: Install IUS release package
+  yum:
+    name: https://centos7.iuscommunity.org/ius-release.rpm
+    state: present
+
+- name: Install PHP
+  yum:
+    name: "{{ item }}"
+    state: present
+  with_items:
+  - php56u
+  - php56u-devel
+  - php56u-gd
+  - php56u-intl
+  - php56u-ldap
+  - php56u-mbstring
+  - php56u-mysqlnd
+  - php56u-opcache
+  - php56u-pdo
+  - php56u-pecl-apcu
+  - php56u-pecl-igbinary
+  - php56u-pecl-imagick
+  - php56u-pecl-jsonc-devel
+  - php56u-pecl-memcache
+  - php56u-pgsql
+  - php56u-soap
+  - php56u-xmlrpc

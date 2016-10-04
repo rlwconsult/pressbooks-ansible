@@ -1,0 +1,6 @@
+vault_mysql_root_password: "mysql_pw"
+
+vault_users:
+  - name: "{{ admin_user }}"
+    password: "admin_pw"
+    salt: "generatem"
