@@ -11,13 +11,17 @@ Ansible playbooks to configure CentOS 7 local development environment, staging a
 - [x] mariadb role
 - [ ] smtp role
 - [x] php role
-- [ ] memcached role
-- [ ] apache role
+- [x] memcached role
+- [x] apache role
 - [ ] logrotate role
 - [x] composer role
 - [x] wp-cli role
 - [ ] letsencrypt role
-- [ ] pressbooks-setup role
+- [ ] prince role
+- [ ] java role
+- [ ] epubcheck role
+- [ ] xmllint role
+- [ ] kindlegen role
 - [ ] devtools role
 - [ ] dev playbook + vagrant configuration
 - [ ] deploy playbook
